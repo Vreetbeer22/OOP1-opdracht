@@ -31,7 +31,9 @@ public class Incheckpaal {
     		System.out.println("Je bent nog niet ingecheckt.");
     		return;
     	}
-    	
+    	else {
+    		
+    	}
     }
     
 }
