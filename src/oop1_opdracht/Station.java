@@ -17,8 +17,10 @@ public class Station{
         return stationnaam;
     }
 	
-	public double afstandberekenen(){
-		
+	public double afstandberekenen(Station anderStation){
+		double somx = anderStation.cordx - this.cordx;
+		double somy = anderStation.cordy - this.cordy;
+		afstand = Math.sqrt(somx * somx + somy * somy);
 		return afstand;
 	}
 }

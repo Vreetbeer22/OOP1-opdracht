@@ -32,7 +32,12 @@ public class Incheckpaal {
     		return;
     	}
     	else {
+    		kaart.setsaldo(kaart.getsaldo() + instaptarief);
+    		System.out.println("Je bent nu uitgecheckt op station: "+kaart.gethuidigelocatie());
     		
+    		System.out.println("Nieuw saldo: €"+kaart.getsaldo());
+    		kaart.sethuidigelocatie(null);
+    		kaart.setingecheckt(false);
     	}
     }
     

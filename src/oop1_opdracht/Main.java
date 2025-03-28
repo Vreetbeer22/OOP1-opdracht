@@ -8,8 +8,8 @@ public class Main {
         Station nijmegen = new Station(2.0, 2.0, "Nijmegen");
         Incheckpaal paalNijmegen = new Incheckpaal(2.50, nijmegen);
         
-        
+        paalElst.inchecken(mijnKaart);
 
-        paalElst.uitchecken(mijnKaart);
+        paalNijmegen.uitchecken(mijnKaart);
     }
 }
