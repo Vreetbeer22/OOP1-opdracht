@@ -4,6 +4,7 @@ public class OVChipKaart {
 
 	private double saldo;
 	private boolean ingecheckt;
+	private Station incheckstation;
 	private String huidigelocatie;
 	
 	public OVChipKaart(double saldo){
@@ -27,6 +28,14 @@ public class OVChipKaart {
 	public void setingecheckt(boolean ingecheckt) {
         this.ingecheckt = ingecheckt;
     }
+	
+	public Station getincheckstation() {
+	    return incheckstation;
+	}
+
+	public void setincheckstation(Station incheckstation) {
+	    this.incheckstation = incheckstation;
+	}
 	
 	public String gethuidigelocatie() {
 		return huidigelocatie;
