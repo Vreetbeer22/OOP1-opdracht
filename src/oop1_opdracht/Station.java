@@ -5,7 +5,6 @@ public class Station{
 	private double cordx;
 	private double cordy;
 	private String stationnaam;
-	private double afstand;
 	
 	public Station(double cordx, double cordy, String stationnaam) {
 		this.cordx = cordx;
@@ -20,7 +19,6 @@ public class Station{
 	public double afstandberekenen(Station anderStation){
 		double somx = anderStation.cordx - this.cordx;
 		double somy = anderStation.cordy - this.cordy;
-		afstand = Math.sqrt(somx * somx + somy * somy);
-		return afstand;
+		return Math.sqrt(somx * somx + somy * somy);
 	}
 }

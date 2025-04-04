@@ -1,10 +1,10 @@
 package oop1_opdracht; 
 
-public class Incheckpaal {
+public class Ovpaaltje {
     private double instaptarief;
     private Station station;
 
-    public Incheckpaal(double instaptarief, Station station) {
+    public Ovpaaltje(double instaptarief, Station station) {
         this.instaptarief = instaptarief;
         this.station = station;
     }
@@ -56,3 +56,4 @@ public class Incheckpaal {
     }
     
 }
+
