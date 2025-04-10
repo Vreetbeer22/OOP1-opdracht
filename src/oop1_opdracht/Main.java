@@ -24,5 +24,9 @@ public class Main {
         Main.kaartvergeten();
         
         Main.opwaarderentot();
+        
+        Main.kaartmeegeven(mijnKaart);
+        
+        Main.opwaarderentot();
     }
 }
