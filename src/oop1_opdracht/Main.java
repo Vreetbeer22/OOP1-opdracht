@@ -19,7 +19,7 @@ public class Main {
         
         Main.kaartmeegeven(mijnKaart);
         
-        Main.opwaarderentot();
+        Main.opwaarderenmet();
         
         Main.kaartvergeten();
         
