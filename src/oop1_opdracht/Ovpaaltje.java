@@ -1,11 +1,10 @@
 package oop1_opdracht; 
 
 public class Ovpaaltje {
-    private double instaptarief;
+    private static double instaptarief = 2.00;
     private Station station;
 
-    public Ovpaaltje(double instaptarief, Station station) {
-        this.instaptarief = instaptarief;
+    public Ovpaaltje(Station station) {
         this.station = station;
     }
     

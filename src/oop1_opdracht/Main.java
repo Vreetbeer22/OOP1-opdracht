@@ -6,8 +6,8 @@ public class Main {
     	Station elst = new Station(1.0 , 1.5, "Elst");
         Station nijmegen = new Station(2.0, 2.0, "Nijmegen");
         
-        Ovpaaltje paalElst = new Ovpaaltje(2.00, elst);
-        Ovpaaltje paalNijmegen = new Ovpaaltje(2.00, nijmegen);
+        Ovpaaltje paalElst = new Ovpaaltje(elst);
+        Ovpaaltje paalNijmegen = new Ovpaaltje(nijmegen);
         
         OVChipKaart mijnKaart = new OVChipKaart(10.00);
         
