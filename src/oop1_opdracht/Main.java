@@ -7,15 +7,21 @@ public class Main {
         Station nijmegen = new Station(2.0, 2.0, "Nijmegen");
         
         Ovpaaltje paalElst = new Ovpaaltje(elst);
+        Ovpoortje poortElst = new Ovpoortje(elst);
+        Ovpoortje poortNijmegen = new Ovpoortje(nijmegen);
         Ovpaaltje paalNijmegen = new Ovpaaltje(nijmegen);
         
         OVChipKaart mijnKaart = new OVChipKaart(10.00);
         
         Opwaardeerpaal Main = new Opwaardeerpaal();
         
-        paalElst.inchecken(mijnKaart);
+        paalElst.scannen(mijnKaart);
+        
+        paalNijmegen.scannen(mijnKaart);
 
-        paalNijmegen.uitchecken(mijnKaart);
+        poortNijmegen.inchecken(mijnKaart);
+        
+        poortElst.uitchecken(mijnKaart);
         
         Main.kaartmeegeven(mijnKaart);
         
